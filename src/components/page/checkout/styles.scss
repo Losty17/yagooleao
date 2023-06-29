@@ -1,0 +1,9 @@
+.payment-brick-container > div {
+    --form-background-color: transparent !important;
+    --disabled-background-color: #f3f3f3 !important;
+    --outline-secondary-color: #c0c0c0 !important;
+
+    & > div {
+        padding: 0 !important;
+    }
+}
