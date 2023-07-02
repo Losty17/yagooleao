@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 
-export const options = {
+const options = {
   // Configure one or more authentication providers
   providers: [
     // ...add more providers here
