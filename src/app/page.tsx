@@ -1,8 +1,10 @@
-import { Container, Header, Heading } from "@/components";
+import { Container, Header, Heading, Nav } from "@/components";
 
 export default () => {
   return (
     <div className="flex flex-col gap-16">
+      <Nav />
+
       <Container>
         <Header />
       </Container>
@@ -64,4 +66,4 @@ export default () => {
       </Container>
     </div>
   );
-}
+};

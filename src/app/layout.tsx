@@ -1,6 +1,5 @@
 import "./globals.scss";
 import { Montserrat } from "next/font/google";
-import { Nav } from "@/components";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -16,8 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`bg-marble text-carbon min-h-screen ${montserrat.className}`}>
-        <Nav />
+      <body
+        className={`bg-marble text-carbon min-h-screen ${montserrat.className}`}
+      >
         {children}
       </body>
     </html>
